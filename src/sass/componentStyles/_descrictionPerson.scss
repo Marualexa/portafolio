@@ -1,0 +1,33 @@
+.container {
+    position: relative;
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-5%, 0%);
+        text-align: center;
+        color: white;
+        z-index: 1;
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 20px;
+
+        p {
+            margin: 0;
+            font-family: $Fuente2;
+            text-align: right;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            margin: 0;
+            font-family: $Fuente1;
+            font-size: larger;
+            text-align: justify;
+        }
+    }
+}
