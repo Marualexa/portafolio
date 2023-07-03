@@ -1,0 +1,88 @@
+.container {
+    width: 100%;
+    height: auto;
+    background-color: $color-secundario;
+
+    h2 {
+        color: $color-claro;
+        font-family: $Fuente1;
+        padding-left: 35px;
+    }
+
+    .items-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin: 20px;
+    }
+
+    .maquetacion {
+        margin-top: 40px;
+        display: grid;
+
+        h5 {
+            font-family: $Fuente2;
+            color: $color-claro;
+            font-size: medium;
+        }
+
+        p {
+            font-family: $Fuente2;
+            color: $color-claro;
+        }
+    }
+
+    .css {
+        margin-top: 40px;
+        display: grid;
+        grid-column: 4;
+
+        h5 {
+            font-family: $Fuente2;
+            color: $color-claro;
+            font-size: medium;
+        }
+
+        p {
+            font-family: $Fuente2;
+            color: $color-claro;
+        }
+    }
+
+    .javascrip {
+        margin-top: 40px;
+        display: grid;
+        grid-column: 3;
+        grid-row: 2;
+
+        h5 {
+            font-family: $Fuente2;
+            color: $color-claro;
+            font-size: medium;
+        }
+
+        p {
+            font-family: $Fuente2;
+            color: $color-claro;
+            margin-top: 10px;
+        }
+    }
+
+    .vue-js {
+        margin-top: 40px;
+        display: grid;
+        grid-column: 2;
+        grid-row: 2;
+
+        h5 {
+            font-family: $Fuente2;
+            color: $color-claro;
+            font-size: medium;
+        }
+
+        p {
+            font-family: $Fuente2;
+            color: $color-claro;
+        }
+    }
+}
