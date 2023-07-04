@@ -8,12 +8,16 @@
     <DescrictionPerson />
     <SoftSkills />
     <Knowledge />
+    <ProyectPortal />
+    <ContactsInfo />
 </template>
 
 <script setup>
 import DescrictionPerson from './DescrictionPerson.vue';
 import SoftSkills from './SoftSkills.vue';
 import Knowledge from './Knowledge.vue';
+import ProyectPortal from './ProyectPortal.vue';
+import ContactsInfo from './ContactsInfo.vue';
 </script>
 
 <style lang="sass">

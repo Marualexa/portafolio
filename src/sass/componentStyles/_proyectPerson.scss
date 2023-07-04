@@ -1,0 +1,100 @@
+.container-proyect {
+    width: 100%;
+    height: 75vh;
+    background-color: $color-claro;
+
+    .title {
+        color: $color-fuente1;
+        font-family: $Fuente1;
+        padding: 35PX;
+    }
+
+    .proyect {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        margin: 30px;
+
+        .git-search {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            grid-row: 2;
+
+            .item-1 {
+                font-family: $Fuente2;
+                color: $color-fuente1;
+                padding-bottom: 14px;
+            }
+
+            .item-img {
+                width: 120px;
+                height: 120px;
+                border-radius: 50%;
+            }
+        }
+
+        .consumo-api {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            grid-column: 2;
+            grid-row: 1;
+
+            .item-2 {
+                font-family: $Fuente2;
+                color: $color-fuente1;
+                padding-bottom: 14px;
+            }
+
+            .item-img2 {
+                width: 120px;
+                height: 120px;
+                border-radius: 50%;
+            }
+        }
+
+        .user-main {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            grid-column: 3;
+            grid-row: 2;
+
+            .item-3 {
+                font-family: $Fuente2;
+                color: $color-fuente1;
+                padding-bottom: 14px;
+            }
+
+            .item-img3 {
+                width: 120px;
+                height: 120;
+                border-radius: 50%;
+            }
+        }
+
+        .pet-show {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            grid-row: 1;
+            grid-column: 4;
+
+            .item-4 {
+                font-family: $Fuente2;
+                color: $color-fuente1;
+                padding-bottom: 14px;
+            }
+
+            .item-img4 {
+                width: 120px;
+                height: 120px;
+                border-radius: 50%;
+            }
+        }
+
+    }
+}
