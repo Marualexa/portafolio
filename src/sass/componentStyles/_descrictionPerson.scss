@@ -17,11 +17,25 @@
         background-color: rgba(0, 0, 0, 0.7);
         padding: 20px;
 
+        @include tablet {
+            top: 140px;
+            left: 175px;
+            transform: translate(-5%, 11%);
+        }
+
+        @include movil {
+            top: 25px;
+            left: 50px;
+        }
+
         p {
             margin: 0;
             font-family: $Fuente2;
             text-align: right;
             margin-bottom: 10px;
+            @include movil {
+                font-size: 15px;
+            }
         }
 
         h2 {
@@ -30,30 +44,9 @@
             font-size: larger;
             text-align: justify;
             color: $color-secundario;
-        }
-    }
-
-    @media (min-width: 710px) {
-        .content {
-            position: absolute;
-            top: 20%;
-            left: 40%;
-        }
-    }
-
-    @media (min-width: 560px) {
-        .content {
-            position: absolute;
-            top: 30%;
-            left: 30%;
-        }
-    }
-
-    @media (min-width: 450px) {
-        .content {
-            position: absolute;
-            top: 10%;
-            left: 10%;
+            @include movil {
+                font-size: medium;
+            }
         }
     }
 }

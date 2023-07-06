@@ -9,6 +9,7 @@
         <p>Mobile firts</p>
         <p>Uso básico de figma</p>
       </div>
+
       <div class="css">
         <h5>CSS</h5>
         <p>Stylus, SASS, SCSS, LESS</p>
@@ -16,6 +17,7 @@
         <p>Css-Grid</p>
         <p>Animaciones y transformaciones</p>
       </div>
+
       <div class="javascrip">
         <h5>JAVASCRIPT</h5>
         <p>Manipulacion del DOM</p>
@@ -28,6 +30,7 @@
         <p>Estructuras de datos</p>
         <p>Web Components</p>
       </div>
+
       <div class="vue-js">
         <h5>VUE JS</h5>
         <p>Vue router</p>

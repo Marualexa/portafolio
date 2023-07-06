@@ -1,12 +1,34 @@
-$Fuente1: 'Helvetica', sans-serif;
-$Fuente2: 'Roboto', sans-serif;
+$Fuente1: 'Lilita One ', sans-serif;
+$Fuente2: 'Calendas Plus', sans-serif;
+$Fuente3: 'Averta', sans-serif;
 $color-primario: #000000;
 $color-secundario: #eaeaea;
 $color-fuente1: #ffffff;
 $color-claro: #4b4b4b;
+$movil-small: 480px;
+$tablet-medium: 768px;
+$desktop-large: 1024px;
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@mixin desktop {
+  @media screen and (max-width: $desktop-large) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media screen and (max-width: $tablet-medium) {
+    @content;
+  }
+}
+
+@mixin movil {
+  @media screen and (max-width: $movil-small) {
+    @content;
+  }
 }

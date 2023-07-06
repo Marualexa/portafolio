@@ -6,12 +6,30 @@
     height: 80vh;
     background-color: $color-primario;
 
+    @include tablet {
+        height: 35vh;
+    }
+
+    @include movil {
+        height: 30vh;
+        grid-template-columns: 1fr 1fr;
+    }
+
     h1 {
         color: $color-fuente1;
-        font-family: $Fuente1;
+        font-family: $Fuente3;
         grid-column: 1 / 3;
         margin-top: 59px;
         margin-left: 48px;
+        font-size: 45px;
+
+        @include tablet {
+            font-size: 32px;
+        }
+
+        @include movil {
+            font-size: 23px;
+        }
     }
 
     p {
@@ -20,12 +38,32 @@
         grid-row: 2;
         grid-column: 1 / 3;
         margin-left: 47px;
+        font-size: 30px;
+
+        @include tablet {
+            font-size: 20px;
+        }
+
+        @include movil {
+            font-size: 15px;
+        }
     }
 
     img {
         grid-column: 4;
-        grid-row: 1 /4;
-        margin-top: -47px;
+        grid-row: 1 / 5;
+        margin-top: 4px;
+        width: 450px;
+
+        @include tablet {
+            width: 315px;
+            margin-top: 11px;
+        }
+
+        @include movil {
+            width: 205px;
+            margin-top: 99px;
+        }
     }
 
     button {
@@ -34,19 +72,27 @@
         align-items: center;
         font-family: $Fuente1;
         grid-row: 4;
-        width: 150px;
+        width: 180px;
         height: 35px;
         margin-left: 35px;
         margin-bottom: 85px;
         border-radius: 15px;
         justify-content: space-evenly;
         background-color: #bbed2f;
+
+        @include movil {
+            width: 105px;
+            margin-left: 40px;
+            margin-bottom: 45px;
+        }
     }
 
     span {
         display: flex;
         justify-content: center;
         align-items: center;
+        font-family: $Fuente2;
+        font-weight: bold;
 
         .flecha {
             width: 20px;

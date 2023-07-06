@@ -10,39 +10,19 @@
     }
 
     div {
-        margin-top: 40px;
+        margin-top: 0px;
         display: grid;
-        justify-content: right;
-        margin-right: 95px;
+        justify-content: flex-start;
+        margin-left: 90px;
+
+        @include tablet {
+            margin-right: 125px;
+        }
 
         p {
             margin-bottom: 10px;
             font-family: $Fuente2;
             color: $color-claro;
-        }
-    }
-
-    @media (min-width: 710px) {
-        .content {
-            position: absolute;
-            top: 20%;
-            left: 40%;
-        }
-    }
-
-    @media (min-width: 560px) {
-        .content {
-            position: absolute;
-            top: 30%;
-            left: 30%;
-        }
-    }
-
-    @media (min-width: 450px) {
-        .content {
-            position: absolute;
-            top: 10%;
-            left: 10%;
         }
     }
 }

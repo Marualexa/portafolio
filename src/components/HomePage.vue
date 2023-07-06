@@ -2,8 +2,8 @@
     <div class="container-init">
         <h1>Hola, soy Mariana Contreras</h1>
         <p>Frontend Developer en Vue.js</p>
-        <button>MY CV <span><img class="flecha" src="../assets/flecha-correcta.png" alt=""></span>
-        </button>
+        <img src="../assets/1688585306268.png" alt="">
+        <button>MY CV <span><img class="flecha" src="../assets/flecha-correcta.png" alt=""></span></button>
     </div>
     <DescrictionPerson />
     <SoftSkills />
