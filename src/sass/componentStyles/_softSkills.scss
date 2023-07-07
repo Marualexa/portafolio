@@ -2,6 +2,7 @@
     width: 100%;
     height: auto;
     background-color: $color-secundario;
+    padding-bottom: 20px;
 
     h2 {
         color: $color-claro;
@@ -18,8 +19,10 @@
         @include tablet {
             margin-right: 125px;
         }
-
-        p {
+        @include movil {
+            margin-left: 50px;
+        }
+        li {
             margin-bottom: 10px;
             font-family: $Fuente2;
             color: $color-claro;

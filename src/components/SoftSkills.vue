@@ -1,13 +1,13 @@
 <template>
-    <div class="container-soft">
-        <h2>Habilidades Blandas</h2>
-        <div>
-            <p>Pensamiento lógico</p>
-            <p>Creatividad</p>
-            <p>Trabajo en equipo</p>
-            <p>Organización efectiva del tiempo</p>
-        </div>
+  <div class="container-soft">
+    <h2>Habilidades Blandas</h2>
+    <div>
+      <li>Pensamiento lógico</li>
+      <li>Creatividad</li>
+      <li>Trabajo en equipo</li>
+      <li>Organización efectiva del tiempo</li>
     </div>
+  </div>
 </template>
 
 <script setup></script>

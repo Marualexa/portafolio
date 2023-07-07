@@ -18,8 +18,8 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-        margin-top: 35px;
-        margin-left: 80px;
+        margin: 35px 0 0 80px;
+        padding-bottom: 10px;
 
         @include movil {
             margin-left: 35px;
@@ -37,7 +37,7 @@
             font-size: medium;
         }
 
-        p {
+        li {
             font-family: $Fuente2;
             color: $color-claro;
             margin-left: 15px;
@@ -54,7 +54,7 @@
             font-size: medium;
         }
 
-        p {
+        li {
             font-family: $Fuente2;
             color: $color-claro;
             margin-left: 15px;
@@ -73,7 +73,7 @@
             font-size: medium;
         }
 
-        p {
+        li {
             font-family: $Fuente2;
             color: $color-claro;
             margin-top: 10px;
@@ -93,7 +93,7 @@
             font-size: medium;
         }
 
-        p {
+        li {
             font-family: $Fuente2;
             color: $color-claro;
             margin-left: 15px;

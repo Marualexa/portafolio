@@ -4,41 +4,41 @@
     <div class="items-container">
       <div class="maquetacion">
         <h5>MAQUETACIÓN</h5>
-        <p>HTML</p>
-        <p>Responsive desing</p>
-        <p>Mobile firts</p>
-        <p>Uso básico de figma</p>
+        <li>HTML</li>
+        <li>Responsive desing</li>
+        <li>Mobile firts</li>
+        <li>Uso básico de figma</li>
       </div>
 
       <div class="css">
         <h5>CSS</h5>
-        <p>Stylus, SASS, SCSS, LESS</p>
-        <p>Flexbox</p>
-        <p>Css-Grid</p>
-        <p>Animaciones y transformaciones</p>
+        <li>Stylus, SASS, SCSS, LESS</li>
+        <li>Flexbox</li>
+        <li>Css-Grid</li>
+        <li>Animaciones y transformaciones</li>
       </div>
 
       <div class="javascrip">
         <h5>JAVASCRIPT</h5>
-        <p>Manipulacion del DOM</p>
-        <p>Api rest(Axios, fetch)</p>
-        <p>Clousure y scope</p>
-        <p>Asuncronimo(Aysnc/await, promesas)</p>
-        <p>Testing(TDD, jest)</p>
-        <p>POO</p>
-        <p>NPM</p>
-        <p>Estructuras de datos</p>
-        <p>Web Components</p>
+        <li>Manipulacion del DOM</li>
+        <li>Api rest(Axios, fetch)</li>
+        <li>Clousure y scope</li>
+        <li>Asuncronimo(Aysnc/await, promesas)</li>
+        <li>Testing(TDD, jest)</li>
+        <li>POO</li>
+        <li>NPM</li>
+        <li>Estructuras de datos</li>
+        <li>Web Components</li>
       </div>
 
       <div class="vue-js">
         <h5>VUE JS</h5>
-        <p>Vue router</p>
-        <p>Composition API</p>
-        <p>Manejo de estado(vuex, pinia)</p>
-        <p>Reactividad</p>
-        <p>Vite.Js</p>
-        <p>Vue Testing(E2E, Unit Tests)</p>
+        <li>Vue router</li>
+        <li>Composition API</li>
+        <li>Manejo de estado(vuex, pinia)</li>
+        <li>Reactividad</li>
+        <li>Vite.Js</li>
+        <li>Vue Testing(E2E, Unit Tests)</li>
       </div>
     </div>
   </div>
