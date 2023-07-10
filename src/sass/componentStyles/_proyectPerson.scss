@@ -1,6 +1,6 @@
 .container-proyect {
     width: 100%;
-    height: 75vh;
+    height: 100vh;
     background-color: $color-claro;
 
     @include tablet {
@@ -19,7 +19,7 @@
 
     .proyect {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         justify-content: center;
         align-items: center;
@@ -31,9 +31,8 @@
 
         .git-search {
             display: grid;
-            justify-content: center;
-            align-items: center;
-            grid-row: 2;
+            grid-template-columns: 1fr 2fr;
+            grid-row: 1;
 
             @include movil {
                 grid-row: 1;
@@ -45,6 +44,14 @@
                 color: $color-fuente1;
                 padding-bottom: 14px;
                 text-align: center;
+                grid-column: 2;
+            }
+
+            p {
+                font-family: $Fuente2;
+                color: $color-fuente1;
+                grid-column: 2;
+                text-align: justify;
             }
 
             .item-img {
@@ -56,6 +63,7 @@
 
         .consumo-api {
             display: grid;
+            grid-template-columns: 1fr 2fr;
             justify-content: center;
             align-items: center;
             grid-column: 2;
@@ -72,6 +80,14 @@
                 color: $color-fuente1;
                 padding-bottom: 14px;
                 text-align: center;
+                grid-column: 2;
+            }
+
+            p {
+                font-family: $Fuente2;
+                color: $color-fuente1;
+                grid-column: 2;
+                text-align: justify;
             }
 
             .item-img2 {
@@ -83,9 +99,10 @@
 
         .user-main {
             display: grid;
+            grid-template-columns: 1fr 2fr;
             justify-content: center;
             align-items: center;
-            grid-column: 3;
+            grid-column: 1;
             grid-row: 2;
 
             @include movil {
@@ -100,6 +117,14 @@
                 color: $color-fuente1;
                 padding-bottom: 14px;
                 text-align: center;
+                grid-column: 2;
+            }
+
+            p {
+                font-family: $Fuente2;
+                color: $color-fuente1;
+                grid-column: 2;
+                text-align: justify;
             }
 
             .item-img3 {
@@ -111,10 +136,11 @@
 
         .pet-show {
             display: grid;
+            grid-template-columns: 1fr 2fr;
             justify-content: center;
             align-items: center;
-            grid-row: 1;
-            grid-column: 4;
+            grid-row: 2;
+            grid-column: 2;
 
             @include movil {
                 grid-row: 2;
@@ -128,6 +154,14 @@
                 color: $color-fuente1;
                 padding-bottom: 14px;
                 text-align: center;
+                grid-column: 2;
+            }
+
+            p {
+                font-family: $Fuente2;
+                color: $color-fuente1;
+                grid-column: 2;
+                text-align: justify;
             }
 
             .item-img4 {

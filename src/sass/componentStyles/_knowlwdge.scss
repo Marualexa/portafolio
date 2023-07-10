@@ -42,6 +42,13 @@
             color: $color-claro;
             margin-left: 15px;
         }
+
+        img {
+            width: 45px;
+            height: 45px;
+            display: grid;
+            justify-self: center;
+        }
     }
 
     .css {
@@ -58,6 +65,13 @@
             font-family: $Fuente2;
             color: $color-claro;
             margin-left: 15px;
+        }
+
+        img {
+            width: 45px;
+            height: 45px;
+            display: grid;
+            justify-self: center;
         }
     }
 
@@ -79,6 +93,13 @@
             margin-top: 10px;
             margin-left: 15px;
         }
+
+        img {
+            width: 45px;
+            height: 45px;
+            display: grid;
+            justify-self: center;
+        }
     }
 
     .vue-js {
@@ -97,6 +118,13 @@
             font-family: $Fuente2;
             color: $color-claro;
             margin-left: 15px;
+        }
+
+        img {
+            width: 45px;
+            height: 45px;
+            display: grid;
+            justify-self: center;
         }
     }
 }

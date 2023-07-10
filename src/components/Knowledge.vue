@@ -8,6 +8,7 @@
         <li>Responsive desing</li>
         <li>Mobile firts</li>
         <li>Uso básico de figma</li>
+        <img src="../assets/maquetacion.png" alt="">
       </div>
 
       <div class="css">
@@ -16,6 +17,7 @@
         <li>Flexbox</li>
         <li>Css-Grid</li>
         <li>Animaciones y transformaciones</li>
+        <img src="../assets/logo-css.png" alt="">
       </div>
 
       <div class="javascrip">
@@ -29,6 +31,7 @@
         <li>NPM</li>
         <li>Estructuras de datos</li>
         <li>Web Components</li>
+        <img src="../assets/logo-js.png" alt="">
       </div>
 
       <div class="vue-js">
@@ -39,6 +42,7 @@
         <li>Reactividad</li>
         <li>Vite.Js</li>
         <li>Vue Testing(E2E, Unit Tests)</li>
+        <img src="../assets/vue.svg" alt="">
       </div>
     </div>
   </div>
