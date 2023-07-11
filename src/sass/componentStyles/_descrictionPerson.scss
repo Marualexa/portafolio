@@ -18,14 +18,14 @@
         padding: 20px;
 
         @include tablet {
-            top: 140px;
-            left: 175px;
+            top: 85px;
+            left: 165px;
             transform: translate(-5%, 11%);
         }
 
         @include movil {
-            top: 25px;
-            left: 50px;
+            top: 100px;
+            left: 125px;
         }
 
         p {

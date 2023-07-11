@@ -2,17 +2,16 @@
   <div class="container-proyect">
     <h2 class="title">PROYECTO</h2>
     <div class="proyect">
-
       <div class="git-search">
         <p class="item-1">GitSearch</p>
-        <!-- <p>
+        <p>
           Fue una de las primeras maquetaciones con JavaScript puro, se realizó un
           buscador para imágenes de GIT para cualquier gusto y colores.
-        </p> -->
-          <!-- <img class="item-img" src="../assets/gitSearch.PNG" alt="" /> -->
+        </p>
+        <img class="item-img" src="../assets/gitSearch.PNG" alt="" />
       </div>
 
-      <!-- <div class="consumo-api">
+      <div class="consumo-api">
         <p class="item-2">ConsumoApi</p>
         <p>
           Este sistema es un catálogo de películas el cual trae detalles de la misma de
@@ -20,6 +19,7 @@
         </p>
         <img class="item-img2" src="../assets/consumoApi.PNG" alt="" />
       </div>
+
       <div class="user-main">
         <p class="item-3">UserMain</p>
         <p>
@@ -28,6 +28,7 @@
         </p>
         <img class="item-img3" src="../assets/userMain.PNG" alt="" />
       </div>
+
       <div class="pet-show">
         <p class="item-4">PetShow</p>
         <p>
@@ -35,7 +36,7 @@
           es lograr que se pareciera una tienda virtual de compras.
         </p>
         <img class="item-img4" src="../assets/proyect.PNG" alt="" />
-      </div> -->
+      </div>
     </div>
   </div>
 </template>

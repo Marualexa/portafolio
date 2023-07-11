@@ -4,9 +4,6 @@ $color-primario: #000000;
 $color-secundario: #eaeaea;
 $color-fuente1: #ffffff;
 $color-claro: #4b4b4b;
-$movil-small: 480px;
-$tablet-medium: 768px;
-$desktop-large: 990px;
 
 * {
   margin: 0;
@@ -15,19 +12,19 @@ $desktop-large: 990px;
 }
 
 @mixin desktop {
-  @media screen and (max-width: $desktop-large) {
+  @media (min-width: 780px) and (max-width: 990px) {
     @content;
   }
 }
 
 @mixin tablet {
-  @media screen and (max-width: $tablet-medium) {
+  @media (min-width: 650px) and (max-width: 780px) {
     @content;
   }
 }
 
 @mixin movil {
-  @media screen and (max-width: $movil-small) {
+  @media (min-width: 450px) and (max-width: 650px) {
     @content;
   }
 }
