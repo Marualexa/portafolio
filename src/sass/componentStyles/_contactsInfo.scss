@@ -25,6 +25,7 @@
             justify-content: space-around;
             align-items: center;
             margin-bottom: 35px;
+            cursor: pointer;
 
             @include movil {
                 grid-row: 1;
@@ -46,6 +47,7 @@
             display: grid;
             justify-content: space-evenly;
             align-items: center;
+            cursor: pointer;
 
             @include movil {
                 grid-row: 2;

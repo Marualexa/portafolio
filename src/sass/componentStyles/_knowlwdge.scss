@@ -3,129 +3,180 @@
     height: auto;
     background-color: $color-secundario;
 
-    @include tablet {
-        padding-top: 0;
-        margin-bottom: 0;
-    }
-
     h2 {
         color: $color-claro;
         font-family: $Fuente1;
         padding-left: 35px;
     }
 
-    .items-container {
+    .container-main {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        margin: 35px 0 0 80px;
-        padding-bottom: 10px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "item-1 item-2 item-3"
+            ". item-5 ."
+        ;
+        gap: 20px;
+        padding: 50px;
 
-        @include movil {
-            margin-left: 35px;
-        }
-    }
+        .maquetacion {
+            grid-area: item-1;
+            width: 300px;
+            height: 200px;
+            display: grid;
+            justify-self: center;
+            transition: 0.4s linear, height 0.4s ease-in-out;
+
+            &:hover {
+                height: 400px;
+                background-color: $color-claro;
+            }
+
+            &:hover ul {
+                opacity: 1;
+                height: auto;
+                z-index: 1000;
+            }
+
+            img {
+                object-fit: contain;
+                width: 160px;
+                height: 160px;
+                justify-self: center;
+            }
+
+            ul {
+                list-style: none;
+                opacity: 0;
+                height: 0;
+                transition: 2s linear, all 0s ease-in;
+                opacity: 0;
 
 
-    .maquetacion {
-        display: grid;
-        margin-bottom: 50px;
 
-        h5 {
-            font-family: $Fuente2;
-            color: $color-claro;
-            font-size: medium;
-        }
-
-        li {
-            font-family: $Fuente2;
-            color: $color-claro;
-            margin-left: 15px;
-        }
-
-        img {
-            width: 45px;
-            height: 45px;
-            place-self: center;
-            margin-right: 130px;
-        }
-    }
-
-    .css {
-        display: grid;
-        margin-bottom: 58px;
-
-        h5 {
-            font-family: $Fuente2;
-            color: $color-claro;
-            font-size: medium;
-        }
-
-        li {
-            font-family: $Fuente2;
-            color: $color-claro;
-            margin-left: 15px;
-        }
-
-        img {
-            width: 45px;
-            height: 45px;
-            place-self: center;
-            margin-right: 40px;
-        }
-    }
-
-    .javascrip {
-        display: grid;
-        grid-column: 1;
-        grid-row: 2;
-        margin-bottom: 10px;
-
-        h5 {
-            font-family: $Fuente2;
-            color: $color-claro;
-            font-size: medium;
+                li {
+                    color: $color-claro;
+                    font-family: $Fuente2;
+                }
+            }
         }
 
-        li {
-            font-family: $Fuente2;
-            color: $color-claro;
-            margin-top: 10px;
-            margin-left: 15px;
+        .css {
+            grid-area: item-2;
+            width: 300px;
+            height: 200px;
+            display: grid;
+            justify-self: center;
+            transition: 0.4s linear, height 0.4s ease-in-out;
+
+            &:hover {
+                height: 400px;
+                background-color: $color-claro;
+            }
+
+            img {
+                object-fit: contain;
+                width: 160px;
+                height: 160px;
+                justify-self: center;
+            }
+
+            ul {
+                list-style: none;
+                opacity: 0;
+                height: 0;
+                transition: 2s linear, all 0s ease-in;
+                opacity: 0;
+
+                &:hover {
+                    opacity: 1;
+                    height: auto;
+                }
+
+                li {
+                    color: $color-claro;
+                    font-family: $Fuente2;
+                }
+            }
         }
 
-        img {
-            width: 40px;
-            height: 50px;
-            place-self: center;
-            margin-right: 100px;
-            margin-top: 15px;
+        .javascript {
+            grid-area: item-3;
+            width: 300px;
+            height: 200px;
+            display: grid;
+            justify-self: center;
+            transition: 0.4s linear, height 0.4s ease-in-out;
+
+            &:hover {
+                height: 400px;
+                background-color: $color-claro;
+            }
+
+            img {
+                object-fit: contain;
+                width: 160px;
+                height: 160px;
+                justify-self: center;
+            }
+
+            ul {
+                list-style: none;
+                opacity: 0;
+                height: 0;
+                transition: 2s linear, all 0s ease-in;
+                opacity: 0;
+
+                &:hover {
+                    opacity: 1;
+                    height: auto;
+                }
+
+                li {
+                    color: $color-claro;
+                    font-family: $Fuente2;
+                }
+            }
         }
-    }
 
-    .vue-js {
-        display: grid;
-        grid-column: 2;
-        grid-row: 2;
-        margin-bottom: 20px;
+        .vue-js {
+            grid-area: item-5;
+            width: 300px;
+            height: 200px;
+            display: grid;
+            justify-self: center;
+            transition: 0.4s linear, height 0.4s ease-in-out;
 
-        h5 {
-            font-family: $Fuente2;
-            color: $color-claro;
-            font-size: medium;
-        }
+            &:hover {
+                height: 400px;
+                background-color: $color-claro;
+            }
 
-        li {
-            font-family: $Fuente2;
-            color: $color-claro;
-            margin-left: 15px;
-        }
+            img {
+                object-fit: contain;
+                width: 160px;
+                height: 160px;
+                justify-self: center;
+            }
 
-        img {
-            width: 45px;
-            height: 45px;
-            place-self: center;
-            margin-right: 100px;
+            ul {
+                list-style: none;
+                opacity: 0;
+                height: 0;
+                transition: 2s linear, all 0s ease-in;
+                opacity: 0;
+
+                &:hover {
+                    opacity: 1;
+                    height: auto;
+                }
+
+                li {
+                    color: $color-claro;
+                    font-family: $Fuente2;
+                }
+            }
         }
     }
 }
