@@ -27,10 +27,10 @@
         <img src="../assets/logo-js.png" alt="" />
         <ul>
           <li>Manipulacion del DOM</li>
-          <li>Api rest(Axios, fetch)</li>
+          <li>Api rest (Axios, fetch)</li>
           <li>Clousure y scope</li>
-          <li>Asuncronimo(Aysnc/await, promesas)</li>
-          <li>Testing(TDD, jest)</li>
+          <li>Asuncronimo (Aysnc/await, promesas)</li>
+          <li>Testing (TDD, jest)</li>
           <li>POO</li>
           <li>NPM</li>
           <li>Estructuras de datos</li>
@@ -43,10 +43,10 @@
         <ul>
           <li>Vue router</li>
           <li>Composition API</li>
-          <li>Manejo de estado(vuex, pinia)</li>
+          <li>Manejo de estado (vuex, pinia)</li>
           <li>Reactividad</li>
           <li>Vite.Js</li>
-          <li>Vue Testing(E2E, Unit Tests)</li>
+          <li>Vue Testing (E2E, Unit Tests)</li>
         </ul>
       </div>
     </div>

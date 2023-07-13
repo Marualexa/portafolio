@@ -1,6 +1,6 @@
 <template>
   <div class="container-proyect">
-    <h2 class="title">PROYECTO</h2>
+    <h2 class="title">PROYECTOS</h2>
     <div class="proyect">
       <div class="git-search" @click="gitSearch">
         <p class="item-1">GitSearch</p>

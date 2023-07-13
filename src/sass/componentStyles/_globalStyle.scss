@@ -18,7 +18,7 @@ $color-claro: #4b4b4b;
 }
 
 @mixin tablet {
-  @media (min-width: 650px) and (max-width: 780px) {
+  @media (min-width: 650px) and (max-width: 970px) {
     @content;
   }
 }

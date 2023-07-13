@@ -1,13 +1,11 @@
 <template>
   <div class="infor-contact">
-    <h2>Contactos</h2>
     <div class="container-items">
       <div class="items-1">
-        <p class="correo">Correo:</p>
+        <img src="../assets/correo.png" alt="" />
         <p>contrerasomanam@gmail.com</p>
       </div>
       <div class="items-2">
-        <h5>Sígueme en redes sociales</h5>
         <div class="items-img">
           <img @click="gitHub" src="../assets/gitHub.png" alt="" />
           <img @click="linkeding" src="../assets/linkedin.png" alt="" />

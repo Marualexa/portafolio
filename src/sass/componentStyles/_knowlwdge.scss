@@ -20,6 +20,26 @@
         gap: 20px;
         padding: 50px;
 
+        @include movil {
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+            grid-template-areas:
+                "item-1"
+                "item-2"
+                "item-3" 
+                "item-5"
+            ;
+        }
+
+        @include tablet {
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto;
+            grid-template-areas:
+                "item-1 item-2"
+                "item-3 item-5"
+            ;
+        }
+
         .maquetacion {
             grid-area: item-1;
             width: 300px;
@@ -47,17 +67,19 @@
             }
 
             ul {
+                display: grid;
+                justify-content: center;
+                align-items: center;
                 list-style: none;
                 opacity: 0;
                 height: 0;
                 transition: 2s linear, all 0s ease-in;
                 opacity: 0;
 
-
-
                 li {
-                    color: $color-claro;
+                    color: $color-fuente1;
                     font-family: $Fuente2;
+                    text-align: justify;
                 }
             }
         }
@@ -75,6 +97,12 @@
                 background-color: $color-claro;
             }
 
+            &:hover ul {
+                opacity: 1;
+                height: auto;
+                z-index: 1000;
+            }
+
             img {
                 object-fit: contain;
                 width: 160px;
@@ -83,20 +111,19 @@
             }
 
             ul {
+                display: grid;
+                justify-content: center;
+                align-items: center;
                 list-style: none;
                 opacity: 0;
                 height: 0;
                 transition: 2s linear, all 0s ease-in;
                 opacity: 0;
 
-                &:hover {
-                    opacity: 1;
-                    height: auto;
-                }
-
                 li {
-                    color: $color-claro;
+                    color: $color-fuente1;
                     font-family: $Fuente2;
+                    text-align: justify;
                 }
             }
         }
@@ -114,6 +141,12 @@
                 background-color: $color-claro;
             }
 
+            &:hover ul {
+                opacity: 1;
+                height: auto;
+                z-index: 1000;
+            }
+
             img {
                 object-fit: contain;
                 width: 160px;
@@ -122,20 +155,19 @@
             }
 
             ul {
+                display: grid;
+                justify-content: center;
+                align-items: center;
                 list-style: none;
                 opacity: 0;
                 height: 0;
                 transition: 2s linear, all 0s ease-in;
                 opacity: 0;
 
-                &:hover {
-                    opacity: 1;
-                    height: auto;
-                }
-
                 li {
-                    color: $color-claro;
+                    color: $color-fuente1;
                     font-family: $Fuente2;
+                    text-align: justify;
                 }
             }
         }
@@ -153,6 +185,12 @@
                 background-color: $color-claro;
             }
 
+            &:hover ul {
+                opacity: 1;
+                height: auto;
+                z-index: 1000;
+            }
+
             img {
                 object-fit: contain;
                 width: 160px;
@@ -161,20 +199,19 @@
             }
 
             ul {
+                display: grid;
+                justify-content: center;
+                align-items: center;
                 list-style: none;
                 opacity: 0;
                 height: 0;
                 transition: 2s linear, all 0s ease-in;
                 opacity: 0;
 
-                &:hover {
-                    opacity: 1;
-                    height: auto;
-                }
-
                 li {
-                    color: $color-claro;
+                    color: $color-fuente1;
                     font-family: $Fuente2;
+                    text-align: justify;
                 }
             }
         }
