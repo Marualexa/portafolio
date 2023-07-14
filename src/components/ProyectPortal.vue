@@ -8,7 +8,7 @@
           Fue una de las primeras maquetaciones con JavaScript puro, se realizó un
           buscador para imágenes de GIT para cualquier gusto y colores.
         </p>
-        <img class="item-img" src="@img/gitSearch.png" alt="" />
+        <img class="item-img" src="@img/gitSearchh.png" alt="" />
       </div>
 
       <div class="consumo-api" @click="consumoApi">
