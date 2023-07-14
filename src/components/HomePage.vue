@@ -1,12 +1,12 @@
 <template>
   <div class="container-init">
-    <img src="/1688585306268.png" alt="" />
+    <img src="@img/1688585306268.png" alt="" />
     <h1>Hola, soy Mariana Contreras</h1>
     <p>Frontend Developer en Vue.js</p>
     <button @click="myCurricula">
       <a>
         MY CV
-        <span><img class="flecha" src="/flecha-correcta.png" alt="" /></span>
+        <span><img class="flecha" src="@img/flecha-correcta.png" alt="" /></span>
       </a>
     </button>
   </div>

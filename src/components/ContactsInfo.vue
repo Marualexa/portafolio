@@ -2,13 +2,13 @@
   <div class="infor-contact">
     <div class="container-items">
       <div class="items-1">
-        <img src="/correo.png" alt="" />
+        <img src="@img/correo.png" alt="" />
         <p>contrerasomanam@gmail.com</p>
       </div>
       <div class="items-2">
         <div class="items-img">
-          <img @click="gitHub" src="/gitHub.png" alt="" />
-          <img @click="linkeding" src="/linkedin.png" alt="" />
+          <img @click="gitHub" src="@img/gitHub.png" alt="" />
+          <img @click="linkeding" src="@img/linkedin.png" alt="" />
         </div>
       </div>
     </div>
