@@ -8,7 +8,7 @@
           Fue una de las primeras maquetaciones con JavaScript puro, se realizó un
           buscador para imágenes de GIT para cualquier gusto y colores.
         </p>
-        <img class="item-img" src="../assets/gitSearch.PNG" alt="" />
+        <img class="item-img" src="../assets/gitSearch.png" alt="" />
       </div>
 
       <div class="consumo-api" @click="consumoApi">
@@ -17,7 +17,7 @@
           Este sistema es un catálogo de películas el cual trae detalles de la misma de
           una API pública.
         </p>
-        <img class="item-img2" src="../assets/consumoApi.PNG" alt="" />
+        <img class="item-img2" src="../assets/consumoApi.png" alt="" />
       </div>
 
       <div class="user-main" @click="userMain">
@@ -26,7 +26,7 @@
           Este proyecto fue mi entrada a un framework por primera vez, se realizó una base
           de datos como prueba, tiene dos lógicas de paginación y con scroll infinito.
         </p>
-        <img class="item-img3" src="../assets/userMain.PNG" alt="" />
+        <img class="item-img3" src="../assets/userMain.png" alt="" />
       </div>
 
       <div class="pet-show" @click="petShow">
@@ -35,7 +35,7 @@
           Proyecto personal el cual se realizó para practicar mis habilidades, mi objetivo
           es lograr que se pareciera una tienda virtual de compras.
         </p>
-        <img class="item-img4" src="../assets/proyect.PNG" alt="" />
+        <img class="item-img4" src="../assets/proyect.png" alt="" />
       </div>
     </div>
   </div>

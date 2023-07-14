@@ -98,22 +98,29 @@
             margin-bottom: 45px;
             grid-column: 1;
         }
-    }
 
-    span {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-family: $Fuente2;
-        font-weight: bold;
+        a {
+            display: flex;
+            place-items: center;
+            font-weight: bold;
+            font-family: $Fuente2;
 
-        .flecha {
-            width: 20px;
-            height: 20px;
-            margin-left: 10px;
-            margin-top: 0;
-            display: block;
+            span {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: $Fuente2;
+                font-weight: bold;
+                padding-left: 45px;
+
+                .flecha {
+                    width: 20px;
+                    height: 20px;
+                    margin-left: 10px;
+                    margin-top: 0;
+                    display: block;
+                }
+            }
         }
     }
-
 }
