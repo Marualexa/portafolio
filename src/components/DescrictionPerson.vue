@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <img src="../assets/imgSecundary.jpg" alt="" />
+    <img src="public/imgSecundary.jpg" alt="" />
     <div class="content">
       <p>Quién soy y lo que hago</p>
       <h2>

@@ -4,7 +4,7 @@
 
     <div class="container-main">
       <div class="maquetacion">
-        <img src="../assets/maquetacion.png" alt="" />
+        <img src="public/maquetacion.png" alt="" />
         <ul>
           <li>HTML</li>
           <li>Responsive desing</li>
@@ -14,7 +14,7 @@
       </div>
 
       <div class="css">
-        <img src="../assets/logo-css.png" alt="" />
+        <img src="public/logo-css.png" alt="" />
         <ul>
           <li>Stylus, SASS, SCSS, LESS</li>
           <li>Flexbox</li>
@@ -24,7 +24,7 @@
       </div>
 
       <div class="javascript">
-        <img src="../assets/logo-js.png" alt="" />
+        <img src="public/logo-js.png" alt="" />
         <ul>
           <li>Manipulacion del DOM</li>
           <li>Api rest (Axios, fetch)</li>
@@ -39,7 +39,7 @@
       </div>
 
       <div class="vue-js">
-        <img src="../assets/vue.svg" alt="" />
+        <img src="public/vue.svg" alt="" />
         <ul>
           <li>Vue router</li>
           <li>Composition API</li>
