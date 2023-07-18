@@ -24,7 +24,7 @@ $color-claro: #4b4b4b;
 }
 
 @mixin movil {
-  @media (max-width: 350px) and (max-width: 650px) {
+  @media (min-width: 350px) and (max-width: 650px) {
     @content;
   }
 }
