@@ -91,14 +91,14 @@
         background-color: #bbed2f;
 
         @include tablet {
-            margin-right: 25px;
+            margin-right: 100px;
             margin-bottom: 40px;
         }
 
         @include movil {
             width: 140px;
-            margin-left: 90px;
-            margin-bottom: 70px;
+            margin-left: 100px;
+            margin-bottom: 25px;
             grid-column: 1;
             place-content: flex-end;
         }
