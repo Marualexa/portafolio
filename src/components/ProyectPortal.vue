@@ -41,7 +41,27 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+const gitSearch = () => {
+  const url = "https://github.com/Marualexa/ejercicio-2/tree/master";
+  window.open(url, "_blank");
+};
+
+function consumoApi() {
+  const urlCA = "https://github.com/Marualexa/consumo-api";
+  window.open(urlCA, "_blank");
+};
+
+function userMain() {
+  const userUrl = "https://github.com/Marualexa/userMain/tree/master";
+  window.open(userUrl, "_blank");
+};
+
+function petShow() {
+  const petUrl = "https://github.com/Marualexa/Pet-Shop/tree/Pet-show";
+  window.open(petUrl, "_blank");
+};
+</script>
 
 <style lang="sass">
 @import "../sass/importGlobal.scss"

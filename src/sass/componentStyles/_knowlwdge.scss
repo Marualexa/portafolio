@@ -7,6 +7,11 @@
         color: $color-claro;
         font-family: $Fuente1;
         padding-left: 35px;
+
+        @include movil {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
     }
 
     .container-main {
@@ -26,9 +31,10 @@
             grid-template-areas:
                 "item-1"
                 "item-2"
-                "item-3" 
+                "item-3"
                 "item-5"
             ;
+            padding: 15px;
         }
 
         @include tablet {
@@ -51,6 +57,7 @@
             &:hover {
                 height: 400px;
                 background-color: $color-claro;
+                padding: 20px;
             }
 
             &:hover ul {
@@ -64,6 +71,11 @@
                 width: 160px;
                 height: 160px;
                 justify-self: center;
+
+                @include movil {
+                    width: 135px;
+                    height: 135px;
+                }
             }
 
             ul {
@@ -80,6 +92,10 @@
                     color: $color-fuente1;
                     font-family: $Fuente2;
                     text-align: justify;
+
+                    @include movil {
+                        font-size: 15px;
+                    }
                 }
             }
         }
@@ -95,6 +111,7 @@
             &:hover {
                 height: 400px;
                 background-color: $color-claro;
+                padding: 20px;
             }
 
             &:hover ul {
@@ -108,6 +125,11 @@
                 width: 160px;
                 height: 160px;
                 justify-self: center;
+
+                @include movil {
+                    width: 135px;
+                    height: 135px;
+                }
             }
 
             ul {
@@ -124,6 +146,10 @@
                     color: $color-fuente1;
                     font-family: $Fuente2;
                     text-align: justify;
+
+                    @include movil {
+                        font-size: 15px;
+                    }
                 }
             }
         }
@@ -139,6 +165,7 @@
             &:hover {
                 height: 400px;
                 background-color: $color-claro;
+                padding: 20px;
             }
 
             &:hover ul {
@@ -152,6 +179,11 @@
                 width: 160px;
                 height: 160px;
                 justify-self: center;
+
+                @include movil {
+                    width: 135px;
+                    height: 135px;
+                }
             }
 
             ul {
@@ -168,6 +200,10 @@
                     color: $color-fuente1;
                     font-family: $Fuente2;
                     text-align: justify;
+
+                    @include movil {
+                        font-size: 15px;
+                    }
                 }
             }
         }
@@ -183,6 +219,7 @@
             &:hover {
                 height: 400px;
                 background-color: $color-claro;
+                padding: 20px;
             }
 
             &:hover ul {
@@ -196,6 +233,11 @@
                 width: 160px;
                 height: 160px;
                 justify-self: center;
+
+                @include movil {
+                    width: 135px;
+                    height: 135px;
+                }
             }
 
             ul {
@@ -212,6 +254,10 @@
                     color: $color-fuente1;
                     font-family: $Fuente2;
                     text-align: justify;
+
+                    @include movil {
+                        font-size: 15px;
+                    }
                 }
             }
         }

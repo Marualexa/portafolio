@@ -8,6 +8,10 @@
         color: $color-claro;
         font-family: $Fuente1;
         padding: 35px;
+
+        @include movil {
+            font-size: 18px;
+        }
     }
 
     div {
@@ -26,6 +30,10 @@
             margin-bottom: 10px;
             font-family: $Fuente2;
             color: $color-claro;
+
+            @include movil {
+                font-size: 15px;
+            }
         }
     }
 }
