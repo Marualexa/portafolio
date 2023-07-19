@@ -5,8 +5,6 @@
         width: 100%;
         height: auto;
 
-        @include tablet {}
-
         @include movil {
             height: 275px;
             object-fit: cover;
@@ -39,7 +37,7 @@
             margin: 0;
             font-family: $Fuente2;
             text-align: right;
-            margin-bottom: 10px;
+            padding-right: 25PX;
 
             @include tablet {
                 font-size: 16px;
@@ -58,6 +56,7 @@
             font-size: larger;
             text-align: justify;
             color: $color-secundario;
+            padding: 15px;
 
             @include tablet {
                 font-size: 18px;
