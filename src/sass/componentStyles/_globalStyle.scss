@@ -11,14 +11,8 @@ $color-claro: #4b4b4b;
   box-sizing: border-box;
 }
 
-@mixin desktop {
-  @media (min-width: 780px) and (max-width: 990px) {
-    @content;
-  }
-}
-
 @mixin tablet {
-  @media (min-width: 650px) and (max-width: 970px) {
+  @media (min-width: 650px) and (max-width: 1000px) {
     @content;
   }
 }
