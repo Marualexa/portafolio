@@ -11,6 +11,7 @@
           <li>Mobile firts</li>
           <li>Uso básico de figma</li>
         </ul>
+        <span class="span"><img src="../assets/down-arrow.svg" alt="" /></span>
       </div>
 
       <div class="css">
@@ -21,21 +22,23 @@
           <li>Css-Grid</li>
           <li>Animaciones y transformaciones</li>
         </ul>
+        <span class="span"><img src="../assets/down-arrow.svg" alt="" /></span>
       </div>
 
       <div class="javascript">
         <img src="@img/logo-js.png" alt="" />
         <ul>
-          <li>Manipulacion del DOM</li>
+          <li>Manipulación del DOM</li>
           <li>Api rest (Axios, fetch)</li>
           <li>Clousure y scope</li>
-          <li>Asuncronimo (Aysnc/await, promesas)</li>
+          <li>Asincronismo (Aysnc/await, promesas)</li>
           <li>Testing (TDD, jest)</li>
           <li>POO</li>
           <li>NPM</li>
           <li>Estructuras de datos</li>
           <li>Web Components</li>
         </ul>
+        <span class="span"><img src="../assets/down-arrow.svg" alt="" /></span>
       </div>
 
       <div class="vue-js">
@@ -48,6 +51,7 @@
           <li>Vite.Js</li>
           <li>Vue Testing (E2E, Unit Tests)</li>
         </ul>
+        <span class="span"><img src="../assets/down-arrow.svg" alt="" /></span>
       </div>
     </div>
   </div>

@@ -7,7 +7,8 @@
     background-color: $color-primario;
 
     @include tablet {
-        height: 62vh;
+        height: auto;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
     @include movil {
@@ -27,6 +28,9 @@
         @include tablet {
             font-size: 32px;
             padding: 0;
+            margin-left: 0;
+            grid-column: 3/6;
+            grid-row: 1;
         }
 
         @include movil {
@@ -64,10 +68,7 @@
         width: 410px;
 
         @include tablet {
-            grid-column: 1;
-            grid-row: 1/5;
-            width: 300px;
-            margin-top: 22px;
+            display: none;
         }
 
         @include movil {
@@ -91,14 +92,14 @@
         background-color: #bbed2f;
 
         @include tablet {
-            margin-right: 100px;
-            margin-bottom: 40px;
+            grid-column: 1;
+            grid-row: 3;
         }
 
         @include movil {
             width: 140px;
             margin-left: 100px;
-            margin-bottom: 25px;
+            margin-bottom: 30px;
             grid-column: 1;
             place-content: flex-end;
         }

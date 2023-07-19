@@ -8,7 +8,8 @@
     }
 
     @include tablet {
-        height: 130vh;
+        height: auto;
+        padding-bottom: 10px;
     }
 
     .title {
@@ -63,6 +64,7 @@
                 -webkit-box-shadow: 10px 10px 14px 2px rgba(0, 0, 0, 0.47);
                 box-shadow: 10px 10px 14px 2px rgba(0, 0, 0, 0.47);
                 padding: 15px;
+                border-radius: 30px;
             }
 
             @include movil {
@@ -133,6 +135,7 @@
                 -webkit-box-shadow: 10px 10px 14px 2px rgba(0, 0, 0, 0.47);
                 box-shadow: 10px 10px 14px 2px rgba(0, 0, 0, 0.47);
                 padding: 15px;
+                border-radius: 30px;
             }
 
             @include movil {
@@ -205,6 +208,7 @@
                 -webkit-box-shadow: 10px 10px 14px 2px rgba(0, 0, 0, 0.47);
                 box-shadow: 10px 10px 14px 2px rgba(0, 0, 0, 0.47);
                 padding: 15px;
+                border-radius: 30px;
             }
 
             @include movil {
@@ -277,6 +281,7 @@
                 -webkit-box-shadow: 10px 10px 14px 2px rgba(0, 0, 0, 0.47);
                 box-shadow: 10px 10px 14px 2px rgba(0, 0, 0, 0.47);
                 padding: 15px;
+                border-radius: 30px;
             }
 
             @include movil {

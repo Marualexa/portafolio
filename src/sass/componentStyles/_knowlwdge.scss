@@ -44,6 +44,7 @@
                 "item-1 item-2"
                 "item-3 item-5"
             ;
+            padding: 15px;
         }
 
         .maquetacion {
@@ -58,12 +59,13 @@
                 height: 400px;
                 background-color: $color-claro;
                 padding: 20px;
+                border-radius: 30px;
             }
 
             &:hover ul {
                 opacity: 1;
                 height: auto;
-                z-index: 1000;
+                padding-bottom: 30px;
             }
 
             img {
@@ -96,6 +98,19 @@
                     @include movil {
                         font-size: 15px;
                     }
+                }
+            }
+
+            .span {
+                display: flex;
+                justify-self: center;
+                width: 13px;
+                height: 8px;
+                margin-bottom: 10px;
+
+                img {
+                    width: 13px;
+                    height: 8px;
                 }
             }
         }
@@ -112,12 +127,13 @@
                 height: 400px;
                 background-color: $color-claro;
                 padding: 20px;
+                border-radius: 30px;
             }
 
             &:hover ul {
                 opacity: 1;
                 height: auto;
-                z-index: 1000;
+                padding-bottom: 30px;
             }
 
             img {
@@ -150,6 +166,19 @@
                     @include movil {
                         font-size: 15px;
                     }
+                }
+            }
+
+            .span {
+                display: flex;
+                justify-self: center;
+                width: 13px;
+                height: 8px;
+                margin-bottom: 10px;
+
+                img {
+                    width: 13px;
+                    height: 8px;
                 }
             }
         }
@@ -166,12 +195,13 @@
                 height: 400px;
                 background-color: $color-claro;
                 padding: 20px;
+                border-radius: 30px;
             }
 
             &:hover ul {
                 opacity: 1;
                 height: auto;
-                z-index: 1000;
+                padding-bottom: 30px;
             }
 
             img {
@@ -206,6 +236,20 @@
                     }
                 }
             }
+
+            .span {
+                display: flex;
+                justify-self: center;
+                width: 13px;
+                height: 8px;
+                margin-bottom: 10px;
+
+                img {
+                    width: 13px;
+                    height: 8px;
+                }
+            }
+
         }
 
         .vue-js {
@@ -220,12 +264,13 @@
                 height: 400px;
                 background-color: $color-claro;
                 padding: 20px;
+                border-radius: 30px;
             }
 
             &:hover ul {
                 opacity: 1;
                 height: auto;
-                z-index: 1000;
+                padding-bottom: 30px;
             }
 
             img {
@@ -258,6 +303,19 @@
                     @include movil {
                         font-size: 15px;
                     }
+                }
+            }
+
+            .span {
+                display: flex;
+                justify-self: center;
+                width: 13px;
+                height: 8px;
+                margin-bottom: 10px;
+
+                img {
+                    width: 13px;
+                    height: 8px;
                 }
             }
         }
