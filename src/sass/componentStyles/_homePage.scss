@@ -8,7 +8,7 @@
 
     @include tablet {
         height: auto;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
     @include movil {
@@ -28,9 +28,9 @@
         @include tablet {
             font-size: 32px;
             padding: 0;
-            margin-left: 115px;
-            grid-column: 1 / 4;
+            grid-column: 1 / 5;
             grid-row: 1;
+            text-align: center;
         }
 
         @include movil {
@@ -50,8 +50,9 @@
 
         @include tablet {
             font-size: 18px;
-            grid-column: 1/4;
-            margin-left: 195px;
+            grid-column: 1 / 5;
+            grid-row: 2;
+            text-align: center;
         }
 
         @include movil {
@@ -92,8 +93,12 @@
         background-color: #bbed2f;
 
         @include tablet {
-            grid-column: 1;
+            grid-column: 2 / 4;
             grid-row: 3;
+            margin-left: 0;
+            margin-bottom: 0;
+            display: grid;
+            justify-self: center;
         }
 
         @include movil {
