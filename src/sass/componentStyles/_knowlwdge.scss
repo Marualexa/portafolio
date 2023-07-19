@@ -88,7 +88,6 @@
                 opacity: 0;
                 height: 0;
                 transition: 2s linear, all 0s ease-in;
-                opacity: 0;
 
                 li {
                     color: $color-fuente1;
@@ -156,7 +155,6 @@
                 opacity: 0;
                 height: 0;
                 transition: 2s linear, all 0s ease-in;
-                opacity: 0;
 
                 li {
                     color: $color-fuente1;
@@ -192,7 +190,7 @@
             transition: 0.4s linear, height 0.4s ease-in-out;
 
             &:hover {
-                height: 400px;
+                height: 420px;
                 background-color: $color-claro;
                 padding: 20px;
                 border-radius: 30px;
@@ -201,7 +199,6 @@
             &:hover ul {
                 opacity: 1;
                 height: auto;
-                padding-bottom: 30px;
             }
 
             img {
@@ -224,12 +221,12 @@
                 opacity: 0;
                 height: 0;
                 transition: 2s linear, all 0s ease-in;
-                opacity: 0;
 
                 li {
                     color: $color-fuente1;
                     font-family: $Fuente2;
-                    text-align: justify;
+                    text-align: initial;
+                    padding-left: 10px;
 
                     @include movil {
                         font-size: 15px;
@@ -242,7 +239,7 @@
                 justify-self: center;
                 width: 13px;
                 height: 8px;
-                margin-bottom: 10px;
+                padding-top: 15px;
 
                 img {
                     width: 13px;
@@ -293,7 +290,6 @@
                 opacity: 0;
                 height: 0;
                 transition: 2s linear, all 0s ease-in;
-                opacity: 0;
 
                 li {
                     color: $color-fuente1;

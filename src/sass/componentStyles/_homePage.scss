@@ -28,8 +28,8 @@
         @include tablet {
             font-size: 32px;
             padding: 0;
-            margin-left: 0;
-            grid-column: 3/6;
+            margin-left: 115px;
+            grid-column: 1 / 4;
             grid-row: 1;
         }
 
@@ -50,8 +50,8 @@
 
         @include tablet {
             font-size: 18px;
-            grid-column: 3/6;
-            margin-left: 63px;
+            grid-column: 1/4;
+            margin-left: 195px;
         }
 
         @include movil {
