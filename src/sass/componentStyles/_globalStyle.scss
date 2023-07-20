@@ -11,8 +11,14 @@ $color-claro: #4b4b4b;
   box-sizing: border-box;
 }
 
+@mixin desktop {
+  @media (min-width: 950px) and (max-width: 1400px) {
+    @content;
+  }
+}
+
 @mixin tablet {
-  @media (min-width: 650px) and (max-width: 950px) and (orientation: landscape) {
+  @media (min-width: 650px) and (max-width: 950px) {
     @content;
   }
 }
@@ -22,17 +28,3 @@ $color-claro: #4b4b4b;
     @content;
   }
 }
-
-// @mixin tablet
-// @media screen and (min-width: $tablet-min-width) and (max-width: $tablet-max-width) and (orientation: landscape) {
-//   @content;
-// }
-
-// // Estilos para la tabla en orientación vertical (portrait)
-// @media screen and (min-width: $tablet-min-width) and (max-width: $tablet-max-width) and (orientation: portrait) {
-//   table {
-//     /* Estilos para la tabla en orientación vertical aquí */
-//     font-size: 12px;
-//     /* Otros estilos... */
-//   }
-// }
