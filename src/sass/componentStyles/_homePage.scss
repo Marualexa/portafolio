@@ -6,6 +6,10 @@
     height: auto;
     background-color: $color-primario;
 
+    @include desktop {
+        height: 55vh;
+    }
+
     @include tablet {
         height: auto;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -67,6 +71,10 @@
         grid-column: 1;
         grid-row: 1 / 5;
         width: 415px;
+
+        @include desktop {
+            width: 385px;
+        }
 
         @include tablet {
             display: none;
