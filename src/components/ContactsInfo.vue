@@ -17,11 +17,13 @@
 
 <script setup>
 function gitHub() {
-  window.location.href = "https://github.com/Marualexa?tab=repositories";
+  const urlGit = "https://github.com/Marualexa?tab=repositories";
+  window.open(urlGit, "_blank");
 }
 
 function linkeding() {
-  window.location.href = "https://www.linkedin.com/in/mariana-contreras-034b6b251/";
+  const urlLin = "https://www.linkedin.com/in/mariana-contreras-034b6b251/";
+  window.open(urlLin, "_blank");
 }
 </script>
 
