@@ -11,7 +11,13 @@
           <li>Mobile firts</li>
           <li>Uso básico de figma</li>
         </ul>
-        <span class="span"><img src="../assets/down-arrow.svg" alt="" /></span>
+        <span class="span"
+          ><img
+            :src="imageUrl"
+            alt="Imagen"
+            @mouseover="cambiarImagen('../assets/arrow-white.png')"
+            @mouseleave="restaurarImagen"
+        /></span>
       </div>
 
       <div class="css">
@@ -57,7 +63,19 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import { ref } from "vue";
+
+const imageUrl = ref("../assets/down-arrow.svg");
+
+const cambiarImagen = (nuevaImagen) => {
+  imageUrl.value = nuevaImagen;
+};
+
+const restaurarImagen = () => {
+  imageUrl.value = "../assets/down-arrow.svg";
+};
+</script>
 
 <style lang="sass">
 @import "../sass/importGlobal.scss"
