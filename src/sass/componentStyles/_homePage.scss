@@ -71,6 +71,7 @@
         grid-column: 1;
         grid-row: 1 / 5;
         width: 415px;
+        margin-top: 30px;
 
         @include desktop {
             width: 385px;
