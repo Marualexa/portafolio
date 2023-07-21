@@ -68,6 +68,12 @@
                 padding-bottom: 30px;
             }
 
+            &:hover .imagen {
+                content: url('@img/flecha.png');
+                width: 20px;
+                height: 13px;
+            }
+
             img {
                 object-fit: contain;
                 width: 160px;
@@ -107,7 +113,7 @@
                 height: 8px;
                 margin-bottom: 10px;
 
-                img {
+                .imagen {
                     width: 13px;
                     height: 8px;
                 }
@@ -133,6 +139,12 @@
                 opacity: 1;
                 height: auto;
                 padding-bottom: 30px;
+            }
+
+            &:hover .imagen {
+                content: url('@img/flecha.png');
+                width: 16px;
+                height: 13px;
             }
 
             img {
@@ -201,6 +213,12 @@
                 height: auto;
             }
 
+            &:hover .imagen {
+                content: url('@img/flecha.png');
+                width: 16px;
+                height: 13px;
+            }
+
             img {
                 object-fit: contain;
                 width: 160px;
@@ -244,7 +262,6 @@
                 img {
                     width: 13px;
                     height: 8px;
-                    background-color: antiquewhite;
                 }
             }
 
@@ -269,6 +286,12 @@
                 opacity: 1;
                 height: auto;
                 padding-bottom: 30px;
+            }
+
+            &:hover .imagen {
+                content: url('@img/flecha.png');
+                width: 16px;
+                height: 13px;
             }
 
             img {

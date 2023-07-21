@@ -3,78 +3,73 @@
     <h2>Conocimientos</h2>
 
     <div class="container-main">
-      <div class="maquetacion">
-        <img src="@img/maquetacion.png" alt="" />
-        <ul>
-          <li>HTML</li>
-          <li>Responsive desing</li>
-          <li>Mobile firts</li>
-          <li>Uso básico de figma</li>
-        </ul>
-        <span class="span"
-          ><img
-            :src="imageUrl"
-            alt="Imagen"
-            @mouseover="cambiarImagen('../assets/arrow-white.png')"
-            @mouseleave="restaurarImagen"
-        /></span>
-      </div>
-
-      <div class="css">
-        <img src="@img/logo-css.png" alt="" />
-        <ul>
-          <li>Stylus, SASS, SCSS, LESS</li>
-          <li>Flexbox</li>
-          <li>Css-Grid</li>
-          <li>Animaciones y transformaciones</li>
-        </ul>
-        <span class="span"><img src="../assets/down-arrow.svg" alt="" /></span>
-      </div>
-
-      <div class="javascript">
-        <img src="@img/logo-js.png" alt="" />
-        <ul>
-          <li>Manipulación del DOM</li>
-          <li>Api rest (Axios, fetch)</li>
-          <li>Clousure y scope</li>
-          <li>Asincronismo (Aysnc/await, promesas)</li>
-          <li>Testing (TDD, jest)</li>
-          <li>POO</li>
-          <li>NPM</li>
-          <li>Estructuras de datos</li>
-          <li>Web Components</li>
-        </ul>
-        <span class="span"><img src="../assets/down-arrow.svg" alt="" /></span>
-      </div>
-
-      <div class="vue-js">
-        <img src="@img/vue.svg" alt="" />
-        <ul>
-          <li>Vue router</li>
-          <li>Composition API</li>
-          <li>Manejo de estado (vuex, pinia)</li>
-          <li>Reactividad</li>
-          <li>Vite.Js</li>
-          <li>Vue Testing (E2E, Unit Tests)</li>
-        </ul>
-        <span class="span"><img src="../assets/down-arrow.svg" alt="" /></span>
-      </div>
+      <GenericCards
+        v-for="(section, index) in sections"
+        :key="index"
+        :imageSrc="section.image"
+        :items="section.items"
+        :arrowSrc="section.arrowImg"
+        :mainClass="section.mainClass"
+      />
     </div>
   </div>
 </template>
 
 <script setup>
-import { ref } from "vue";
-
-const imageUrl = ref("../assets/down-arrow.svg");
-
-const cambiarImagen = (nuevaImagen) => {
-  imageUrl.value = nuevaImagen;
-};
-
-const restaurarImagen = () => {
-  imageUrl.value = "../assets/down-arrow.svg";
-};
+import GenericCards from "./GenericCards.vue";
+import arrowImg from "@img/down-arrow.svg";
+import imgMaquetacion from "@/assets/maquetacion.png";
+import imgCss from "@img/logo-css.png";
+import imgJava from "@img/logo-js.png";
+import imgVue from "@img/vue.svg";
+const sections = [
+  {
+    image: imgMaquetacion,
+    items: ["HTML", "Responsive design", "Mobile first", "Uso básico de Figma"],
+    arrowImg: arrowImg,
+    mainClass: "maquetacion",
+  },
+  {
+    image: imgCss,
+    items: [
+      "Stylus, SASS, SCSS, LESS",
+      "Flexbox",
+      "Css-Grid",
+      "Animaciones y transformaciones",
+    ],
+    arrowImg: arrowImg,
+    mainClass: "css",
+  },
+  {
+    image: imgJava,
+    items: [
+      "Manipulación del DOM",
+      "Composition API",
+      "Manejo de estado (vuex, pinia)",
+      "Asincronismo (Aysnc/await, promesas)",
+      "Testing (TDD, jest)",
+      "POO",
+      "NPM",
+      "Estructuras de datos",
+      "Web Components",
+    ],
+    arrowImg: arrowImg,
+    mainClass: "javascript",
+  },
+  {
+    image: imgVue,
+    items: [
+      "Vue router",
+      "Composition API",
+      "Manejo de estado (vuex, pinia)",
+      "Reactividad",
+      "Vite.Js",
+      "Vue Testing (E2E, Unit Tests)",
+    ],
+    arrowImg: arrowImg,
+    mainClass: "vue-js",
+  },
+];
 </script>
 
 <style lang="sass">

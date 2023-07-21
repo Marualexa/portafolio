@@ -78,12 +78,13 @@
                 grid-gap: 10px;
             }
 
-            .item-1 {
+            p {
                 font-family: $Fuente2;
                 font-weight: bold;
                 color: $color-fuente1;
                 place-self: center;
                 grid-column: 2;
+                text-align: center;
 
                 @include movil {
                     font-size: 17px;
@@ -106,7 +107,7 @@
                 }
             }
 
-            .item-img {
+            img {
                 width: 110px;
                 height: 110px;
                 border-radius: 50%;
@@ -154,7 +155,7 @@
                 grid-gap: 10px;
             }
 
-            .item-2 {
+            p {
                 font-family: $Fuente2;
                 font-weight: bold;
                 color: $color-fuente1;
@@ -182,7 +183,7 @@
                 }
             }
 
-            .item-img2 {
+            img {
                 width: 110px;
                 height: 110px;
                 border-radius: 50%;
@@ -230,7 +231,7 @@
                 grid-gap: 10px;
             }
 
-            .item-3 {
+            p {
                 font-family: $Fuente2;
                 font-weight: bold;
                 color: $color-fuente1;
@@ -258,7 +259,7 @@
                 }
             }
 
-            .item-img3 {
+            img {
                 width: 110px;
                 height: 110;
                 border-radius: 50%;
@@ -306,7 +307,7 @@
                 grid-gap: 10px;
             }
 
-            .item-4 {
+            p {
                 font-family: $Fuente2;
                 font-weight: bold;
                 color: $color-fuente1;
@@ -334,7 +335,7 @@
                 }
             }
 
-            .item-img4 {
+            img {
                 width: 110px;
                 height: 110px;
                 border-radius: 50%;

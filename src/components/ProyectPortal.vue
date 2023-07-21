@@ -2,65 +2,60 @@
   <div class="container-proyect">
     <h2 class="title">PROYECTOS</h2>
     <div class="proyect">
-      <div class="git-search" @click="gitSearch">
-        <p class="item-1">GitSearch</p>
-        <p>
-          Fue una de las primeras maquetaciones con JavaScript puro, se realizó un
-          buscador para imágenes de GIT para cualquier gusto y colores.
-        </p>
-        <img class="item-img" src="@img/gitSearchh.png" alt="" />
-      </div>
-
-      <div class="consumo-api" @click="consumoApi">
-        <p class="item-2">ConsumoApi</p>
-        <p>
-          Este sistema es un catálogo de películas el cual trae detalles de la misma de
-          una API pública.
-        </p>
-        <img class="item-img2" src="@img/consumoApi.png" alt="" />
-      </div>
-
-      <div class="user-main" @click="userMain">
-        <p class="item-3">UserMain</p>
-        <p>
-          Este proyecto fue mi entrada a un framework por primera vez, se realizó una base
-          de datos como prueba, tiene dos lógicas de paginación y con scroll infinito.
-        </p>
-        <img class="item-img3" src="@img/userMain.png" alt="" />
-      </div>
-
-      <div class="pet-show" @click="petShow">
-        <p class="item-4">PetShow</p>
-        <p>
-          Proyecto personal el cual se realizó para practicar mis habilidades, mi objetivo
-          es lograr que se pareciera una tienda virtual de compras.
-        </p>
-        <img class="item-img4" src="@img/proyect.png" alt="" />
-      </div>
+      <ProyectCart
+        v-for="(item, index) in items"
+        :key="index"
+        :styleProyect="item.styleProyect"
+        :title="item.title"
+        :information="item.information"
+        :imgProyect="item.imgProyect"
+        :url="item.url"
+      />
     </div>
   </div>
 </template>
 
 <script setup>
-const gitSearch = () => {
-  const url = "https://github.com/Marualexa/ejercicio-2/tree/master";
-  window.open(url, "_blank");
-};
+import ProyectCart from "./ProyectCart.vue";
+import imgGithu from "@img/gitSearchh.png";
+import imgCons from "@img/consumoApi.png";
+import imgUser from "@img/userMain.png";
+import imgPet from "@img/proyect.png";
 
-function consumoApi() {
-  const urlCA = "https://github.com/Marualexa/consumo-api";
-  window.open(urlCA, "_blank");
-};
-
-function userMain() {
-  const userUrl = "https://github.com/Marualexa/userMain/tree/master";
-  window.open(userUrl, "_blank");
-};
-
-function petShow() {
-  const petUrl = "https://github.com/Marualexa/Pet-Shop/tree/Pet-show";
-  window.open(petUrl, "_blank");
-};
+const items = [
+  {
+    styleProyect: "git-search",
+    title: "GitSearch",
+    information:
+      "Fue una de las primeras maquetaciones con JavaScript puro, se realizó un buscador para imágenes de GIT para cualquier gusto y colores.",
+    imgProyect: imgGithu,
+    url: "https://github.com/Marualexa/ejercicio-2/tree/master"
+  },
+  {
+    styleProyect: "consumo-api",
+    title: "ConsumoApi",
+    information:
+      "Este sistema es un catálogo de películas el cual trae detalles de la misma de una API pública",
+    imgProyect: imgCons,
+    url: "https://github.com/Marualexa/consumo-api"
+  },
+  {
+    styleProyect: "user-main",
+    title: "UserMain",
+    information:
+      "Este proyecto fue mi entrada a un framework por primera vez, se realizó una base de datos como prueba, tiene dos lógicas de paginación y con scroll infinito.",
+    imgProyect: imgUser,
+    url: "https://github.com/Marualexa/userMain/tree/master"
+  },
+  {
+    styleProyect: "pet-show",
+    title: "PetShow",
+    information:
+      "Proyecto personal el cual se realizó para practicar mis habilidades, mi objetivo es lograr que se pareciera una tienda virtual de compras.",
+    imgProyect: imgPet,
+    url: "https://github.com/Marualexa/Pet-Shop/tree/Pet-show"
+  },
+];
 </script>
 
 <style lang="sass">
