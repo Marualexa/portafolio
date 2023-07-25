@@ -1,6 +1,6 @@
 <template>
   <div :class="styleProyect" @click="redirectToUrl(url)">
-    <p>{{ title }}</p>
+    <h3>{{ title }}</h3>
     <p>{{ information }}</p>
     <img :src="imgProyect" alt="" />
   </div>
