@@ -6,10 +6,9 @@ import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
   plugins: [vue()],
-  base: '/postafolio/',
+  base: '/portafolio/',
   resolve: {
     alias: {
-      // '@img': resolve(__dirname, 'src/assets/'),
       '@img': fileURLToPath(new URL('src/assets/', import.meta.url)),
       '@': fileURLToPath(new URL('src/', import.meta.url)),
       
