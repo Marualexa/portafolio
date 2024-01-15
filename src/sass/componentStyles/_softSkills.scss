@@ -7,32 +7,45 @@
     h2 {
         color: $color-claro;
         font-family: $Fuente1;
+        text-align: center;
         padding: 35px;
+
+        @include tablet {
+            font-size: 30px;
+            text-align: center;
+        }
 
         @include movil {
             font-size: 18px;
+            text-align: center;
         }
     }
 
     div {
-        margin-top: 0px;
         display: grid;
-        justify-content: flex-start;
-        margin-left: 90px;
+        justify-content: center;
 
         @include tablet {
-            margin-right: 125px;
+            text-align: center;
         }
         @include movil {
-            margin-left: 50px;
+            text-align: center;
         }
         li {
             margin-bottom: 10px;
             font-family: $Fuente2;
             color: $color-claro;
+            list-style: none;
+            text-align: center;
+
+            @include tablet {
+                font-size: 18px;
+                text-align: center;
+            }
 
             @include movil {
                 font-size: 15px;
+                text-align: center;
             }
         }
     }

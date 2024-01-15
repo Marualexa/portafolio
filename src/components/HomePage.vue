@@ -1,6 +1,6 @@
 <template>
   <div class="container-init">
-    <img src="@img/1688585306268.png" alt="" />
+    <img src="@img/foto-perfil.png" alt="" />
     <h1>Hola, soy Mariana Contreras</h1>
     <p>Frontend Developer en Vue.js</p>
     <button @click="myCurricula">

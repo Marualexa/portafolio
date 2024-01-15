@@ -21,6 +21,7 @@ import imgGithu from "@img/gitSearchh.png";
 import imgCons from "@img/consumoApi.png";
 import imgUser from "@img/userMain.png";
 import imgPet from "@img/proyect.png";
+import imgWeb from "@img/web-genesis.png"
 
 const items = [
   {
@@ -54,6 +55,14 @@ const items = [
       "Proyecto personal el cual se realizó para practicar mis habilidades, mi objetivo es lograr que se pareciera una tienda virtual de compras.",
     imgProyect: imgPet,
     url: "https://github.com/Marualexa/Pet-Shop/tree/Pet-show"
+  },
+  {
+    styleProyect: "travel-agent",
+    title: "Travel Agent",
+    information:
+      "Esta web se creó con el objetivo de brindarle a la empresa un proceso de recolección de información. El proyecto se realizó en conjunto con un colaborador que se encargó de Backend.",
+    imgProyect: imgWeb,
+    url: "https://genesissuarez.github.io/Web-genesis/#/"
   },
 ];
 </script>
